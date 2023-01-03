@@ -1,0 +1,11 @@
+.cover__overlay {
+    position: absolute;
+    width: 1184px;
+    height: 740px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.cover:hover .cover__overlay{
+    background: rgba(0, 0, 0, .4);
+}

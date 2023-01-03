@@ -1,0 +1,22 @@
+.header__language {
+    display:none; 
+    margin:10px;
+}
+
+.header__language + label {
+    display:inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 18px;
+    margin-right: 18px;
+}
+
+.header__language + label:last-child {
+    margin-right: 0px;
+}
+
+.header__language:checked + label { 
+    text-decoration: underline;
+}
