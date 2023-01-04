@@ -1,27 +1,20 @@
 .header__language {
-    display:none;
-    margin:10px;
-}
-
-.header__language + label {
     display:inline-block;
     cursor: pointer;
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
     margin: 18px 18px 0 0;
+    color: #fff;
+    text-decoration: none;
 }
 
-.header__language + label:last-child {
-    margin-right: 0px;
-}
-
-.header__language:checked + label { 
-    text-decoration: underline;
+.header__language:last-of-type {
+    margin-right: 0;
 }
 
 @media screen and (max-width: 767px) {
-    .header__language + label {
+    .header__language {
         font-size: 18px;
         line-height: 20px;
         margin-top: 14px;

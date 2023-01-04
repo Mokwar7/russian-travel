@@ -1,0 +1,6 @@
+.header__language_selected::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #ffffff;
+}

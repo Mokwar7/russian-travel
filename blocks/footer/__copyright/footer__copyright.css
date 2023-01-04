@@ -2,9 +2,9 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    flex-basis: calc(100% - 465px);
     text-align: right;
     margin-left: auto;
+    margin: 0;
 }
 
 @media screen and (max-width: 767px) {
