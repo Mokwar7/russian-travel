@@ -1,23 +1,16 @@
 .header__language {
-    display:inline-block;
     cursor: pointer;
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    align-self: center;
-    margin-right: 18px;
     color: #fff;
     text-decoration: none;
-}
-
-.header__language:last-of-type {
-    margin-right: 0;
+    align-self: center;
 }
 
 @media screen and (max-width: 767px) {
     .header__language {
         font-size: 18px;
         line-height: 20px;
-        margin-top: 14px;
     }
 }
