@@ -2,8 +2,7 @@
     width: 100%;
     margin-top: 80px;
     display: grid;
-    grid-template-columns: 460px 484px;
-    grid-template-rows: 152px 460px;
+    grid-template-columns: 1fr 484px;
     row-gap: 48px;
     column-gap: 40px;
 }
@@ -14,24 +13,23 @@
 
 @media screen and (max-width: 1279px) {
     .place {
-        grid-template-columns: 440px 456px;
-        grid-template-rows: 152px 440px;
+        grid-template-columns: 1fr 456px;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .place {
-        grid-template-columns: 340px 352px;
-        grid-template-rows: 92px auto;
+        grid-template-columns: 1fr 352px;
         column-gap: 28px;
+        margin-top: 73px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place {
         grid-template-columns: auto;
-        grid-template-rows: auto;
         row-gap: 32px;
+        margin-top: 50px;
     }
 }

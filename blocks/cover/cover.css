@@ -6,8 +6,22 @@
     height: 740px;
     text-align: center;
     margin: 92px auto 0;
+    position: relative;
 }
-
+.cover::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: background-color 0.5s;
+}
+.cover:hover::after {
+  background-color: rgba(42, 44, 47, 0.8);
+}
 @media screen and (max-width: 1279px) {
     .cover {
         width: 100%;
